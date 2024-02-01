@@ -1,0 +1,8 @@
+    index
+    different yoga / catagories / blogs
+    about us
+    contact us
+login 
+signup
+forgot password
+yoga teachers 
