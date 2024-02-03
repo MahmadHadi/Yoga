@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Log In</title>
-    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
     <link rel="stylesheet" href="logIn.css" />
   </head>
   <body>
@@ -23,13 +23,28 @@
       </ul>
     </div>
 
-    <body>
-        <main>
-          <video autoplay width="100%" controls loop muted> 
-            <source src='<iframe width="560" height="315" src="https://www.youtube.com/embed/-94tY3-H3Zk?si=mY7c_BC5FB7ocJS-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'>
-          </video>
-        </main>
-    </body>
+    <main>
+      <video autoplay muted loop class="video">
+        <source src="img/logInBgVideo.mp4" />
+      </video>
+      <form action="">
+        <div class="div">
+          <div class="email">
+            <label for="mail">e-mail </label>
+            <input type="email" id="mail" placeholder="abcd@efg.com" required/>
+          </div>
+
+          <div class="password">
+            <label for="psw">Password</label>
+            <input type="password" id="psw" placeholder="Password"  required/>
+          </div>
+
+          <div class="submit">
+            <input type="submit">
+          </div>
+        </div>
+      </form>
+    </main>
 
     <!-- footer -->
     <footer>
